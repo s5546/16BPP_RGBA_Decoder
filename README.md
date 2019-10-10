@@ -16,10 +16,10 @@ You should probably have all columns be the same width, but I haven't really tes
 
 FFFF
 
-|||\____________Alpha, aka transparency- higher means more opaque
+|||\\____________Alpha, aka transparency- higher means more opaque
 
-||\_______Green
+||\\_______Green
 
-|\____Blue
+|\\____Blue
 
-\__Red
+\\__Red
