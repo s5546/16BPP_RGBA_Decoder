@@ -20,13 +20,13 @@ with open(filename, "r") as f:
     line = f.readline()
     while line:
         colorArray = line.split(" ")
-        # convert each hex character into a decimal value
-        #    do this by advancing one character, and then converting it
         try:
-            r = int(f.read(1), 16) * 16
-            g = int(f.read(1), 16) * 16
-            b = int(f.read(1), 16) * 16
-            a = int(f.read(1), 16) * 16
+            # comprimise- lose 8 color values per bit in both bright AND dark, instead of 16 in bright OR dark
+            # also means everything's a little transparent but frankly if you have a problem with that, YOU change it
+            r = int(f.read(1), 16) * 16 + 8
+            g = int(f.read(1), 16) * 16 + 8
+            b = int(f.read(1), 16) * 16 + 8
+            a = int(f.read(1), 16) * 16 + 8
             f.read(1)
             pixels.append((r, g, b, a))
         except ValueError:
