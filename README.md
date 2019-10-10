@@ -14,8 +14,4 @@ ABAD FAAD 0023 134D A42B 0032 1542 4382
 etc...
 You should probably have all columns be the same width, but I haven't really tested if that actually breaks things- they SHOULD be filled in with a default RGBA value of (0,0,0,0), but truthfully I have no clue if that'll actually happen for any row aside from the last one.
 
-FFFF
-|||\\____________Alpha, aka transparency- higher means more opaque
-||\\_______Green
-|\\____Blue
-\\__Red
+also the last bit is Alpha aka transparency, higher values = more opaque
