@@ -1,4 +1,3 @@
-import numpy as np
 from PIL import Image
 
 filename = input("Enter a filename (or absolute path)")
@@ -18,6 +17,7 @@ with open(filename, "r") as f:
     print(x, y)
     f.seek(0)
     line = f.readline()
+    f.seek(0)
     while line:
         colorArray = line.split(" ")
         try:
