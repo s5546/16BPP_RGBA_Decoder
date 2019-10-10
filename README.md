@@ -2,7 +2,7 @@
 Created for PicoCTF 2019. Decodes 4-bit hex groups into RGBA images. 
 Was not the answer to the problem, but like... its fun.
 
-also i named the python file the wrong thing, it does RGBA decryption not ARGB decryption
+also i named the python file the wrong thing, it does RGBA decryption not ARBG decryption
 
 
 Input files should be formatted in 4 character Hex pairs, like this:
