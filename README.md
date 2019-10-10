@@ -1,6 +1,7 @@
 # 4BPP_RGBA_Decoder
 Created for PicoCTF 2019. Decodes 4-char hex groups into RGBA images. 
 Was not the answer to the problem, but like... its fun.
+Technically it's more like 12 BPP + 4 bit transparency.
 
 also i named the python file the wrong thing, it does RGBA decryption not ARBG decryption
 
